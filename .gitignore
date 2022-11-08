@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,gradle,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,intellij+iml,intellij+all,gradle,java
+
+# Created by https://www.toptal.com/developers/gitignore/api/intellij,intellij+all,intellij+iml,gradle,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,intellij+all,intellij+iml,gradle,java
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -278,8 +279,7 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-### Gradle Patch ###
-# Java heap dump
-*.hprof
+# End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+all,intellij+iml,gradle,java
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,gradle,java
+**/front-end/node_modules/**
+**/front-end/static/**
